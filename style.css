@@ -1,0 +1,31 @@
+/* 共通の箱スタイル */
+.alert-box {
+    position: fixed;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    font-weight: bold;
+    display: none; /* 最初は隠す */
+    z-index: 9999;
+    border-radius: 0;
+    line-height: 1.2;
+}
+
+/* 左上配置（番号用） */
+.top-left {
+    top: 0;
+    left: 0;
+    font-size: 24px;
+}
+
+/* 右上配置（日付用） */
+.top-right {
+    top: 0;
+    right: 0;
+    font-size: 14px;
+}
+
+#drawBtn {
+    margin: 50px;
+}
